@@ -1,0 +1,51 @@
+/* Calm, task-focused presentation for a banking service. */
+:root{--red:#c8102e;--ink:#25282e;--muted:#636a73;--line:#dfe2e5;--bg:#f5f6f7}
+html,body{background:#e7e8ea}
+.phone{box-shadow:0 0 28px #181b2020}
+.topbar{border-top:4px solid var(--red);border-bottom:1px solid var(--line);height:calc(62px + env(safe-area-inset-top));padding-left:18px;padding-right:18px}
+.brand{font-size:18px;line-height:1.05;letter-spacing:0;gap:10px}
+.brand small{display:block;font-size:9px;letter-spacing:.08em;color:#595d64;font-weight:700;margin-top:3px}
+.brand-mark{display:block;width:4px;height:25px;background:var(--red);border-radius:1px}
+.icon-btn{background:transparent;border:1px solid var(--line);border-radius:6px;width:34px;height:34px;font-size:19px}
+main{padding-top:22px}
+.eyebrow{display:none}
+.page-title{font-size:23px;line-height:1.45;letter-spacing:0;margin:0 0 8px}
+.subtext{font-size:13px;color:var(--muted);line-height:1.75}
+.hero{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--red);border-radius:7px;box-shadow:none;padding:20px}
+.hero:after{display:none}
+.hero .label{color:var(--red);font-size:12px;font-weight:800;opacity:1}
+.hero h2{font-size:20px;line-height:1.55;margin:7px 0;letter-spacing:0}
+.hero h2 br{display:none}
+.hero p{color:var(--muted);opacity:1;margin:0 0 15px}
+.hero button{background:var(--red);color:#fff;border-radius:5px;min-height:46px;width:100%;font-size:14px}
+.section-head{margin:26px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.section-head h2{font-size:16px}
+.card,.account-card,.info-banner{border:1px solid var(--line);border-radius:7px;box-shadow:none}
+.card{padding:16px}
+.card+.card{margin-top:8px}
+.card h3,.row h3{font-size:14px}
+.row p,.card p{font-size:12px}
+.chev{font-size:20px}
+.status-pill{border-radius:3px;padding:4px 7px;background:#f6f0e4;color:#806029}
+.status-pill.done{background:#e9f2ed;color:#286449}
+.tile-icon{background:#f2f3f4!important;border-radius:5px;color:var(--red)}
+.services{gap:1px;border:1px solid var(--line);background:var(--line);border-radius:7px;overflow:hidden}
+.service{border:0;border-radius:0;min-height:114px;padding:14px;background:#fff}
+.service .tile-icon{width:34px;height:34px;margin-bottom:9px}
+.service strong{font-size:13px}
+.service small{font-size:11px}
+.text-btn{font-size:12px}
+.balance{font-size:27px}
+.primary{border-radius:5px;box-shadow:none;min-height:50px}
+.secondary{border-radius:5px}
+.action-line button{border-radius:5px}
+.form-group input,.form-group select,.search{border-radius:5px}
+.choice,.note{border-radius:5px}
+.choice:has(input:checked){background:#fff6f7}
+.chip{border-radius:5px}
+.done-icon{border-radius:5px;width:58px;height:58px;font-size:28px;background:#eaf2ed}
+.avatar{border-radius:5px;background:#eee;color:var(--ink)}
+.detail-intro .tile-icon{border-radius:5px}
+.bottom-nav{border-top:1px solid #d8dbe0}
+.nav-item{font-size:11px}
+@media(min-width:600px){.phone{border-radius:8px}.bottom-nav{border-radius:0 0 8px 8px}}
