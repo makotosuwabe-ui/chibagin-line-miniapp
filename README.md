@@ -1,2 +1,9 @@
-# chibagin-line-miniapp
-LINE mini app web mock for Chiba Bank services (unofficial prototype)
+# ちばぎん LINEミニアプリ Webモック
+
+`index.html` をブラウザで開くか、ローカルサーバーで `outputs` フォルダを公開してください。例：`python -m http.server 8765 --directory outputs` → `http://localhost:8765/`
+
+画面：ホーム、商品・サービス、商品詳細、口座開設、各種申込、ご利用状況、入出金明細、来店予約、マイページ、ヘルプ。入力・確認・完了まで操作でき、申込と予約の状態は `localStorage` に保存されます。再確認は「ご利用状況」から行えます。
+
+変更しやすい文言、商品、店舗、仮の会員情報、配色の基準値は `app-config.js` にまとめています。画像は使用せず、アイコンはローカルの SVG です。
+
+情報設計の参考：[千葉銀行 公式サイト](https://www.chibabank.co.jp/)（2026年10月20日確認）。銀行ロゴ、公式写真などの素材は転載していません。表示名やデータは画面検証用です。本番の LIFF、LINE ログイン、本人確認、銀行口座・審査・決済 API は未接続で、受付・残高・明細はローカルの代替動作です。
