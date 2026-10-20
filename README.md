@@ -1,5 +1,9 @@
 # ちばぎん LINEミニアプリ Webモック
 
+公開ページ：<https://makotosuwabe-ui.github.io/chibagin-line-miniapp/>
+
+![スマートフォンで開くQRコード](chibagin-qr.png)
+
 `index.html` をブラウザで開くか、ローカルサーバーで `outputs` フォルダを公開してください。例：`python -m http.server 8765 --directory outputs` → `http://localhost:8765/`
 
 画面：ホーム、商品・サービス、商品詳細、口座開設、各種申込、ご利用状況、入出金明細、来店予約、マイページ、ヘルプ。入力・確認・完了まで操作でき、申込と予約の状態は `localStorage` に保存されます。再確認は「ご利用状況」から行えます。
